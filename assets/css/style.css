@@ -1,0 +1,27 @@
+.nav-item {color: DodgerBlue;}
+
+.page-header {color: dodgerblue;
+              border-bottom-style: double;
+              font-family: "Times New Roman", Times, serif;
+              font-weight: bold}
+
+.container {border-style: solid;
+            border-color: lightgrey;
+            margin-top: 75px;
+            background-color: white;
+            max-width: 800px;}
+
+p {font-family:'Helvetica Neue', Helvetica, sans-serif;}
+
+body {background-image: "assets/background images/dynamic-style";
+        background-color: #cccccc;}
+
+.footer {position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+            background-color: darkslategrey;
+            color: darkgrey;
+            text-align: center;
+          }
+          
