@@ -1,7 +1,14 @@
-.nav-item {color: DodgerBlue;}
+.nav-title {color: white;
+        background-color: #4aaaa5;
+        }
 
-.page-header {color: dodgerblue;
-              border-bottom-style: double;
+.navbar {
+        border-bottom: 3px solid #cccccc;}
+      
+
+.page-header {color: #4aaaa5;
+              border-bottom-style: solid;
+              border-bottom-color: #cccccc;
               font-family: "Times New Roman", Times, serif;
               font-weight: bold}
 
@@ -11,10 +18,15 @@
             background-color: white;
             max-width: 800px;}
 
-p {font-family:'Helvetica Neue', Helvetica, sans-serif;}
+p {font-family:'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777}
 
-body {background-image: "assets/background images/dynamic-style";
-        background-color: #cccccc;}
+body {background-image: url("css/dynamic-style.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #cccccc;
+        background-position: center;
+        background-size: cover;}
 
 .footer {position: fixed;
         left: 0;
@@ -23,5 +35,5 @@ body {background-image: "assets/background images/dynamic-style";
             background-color: darkslategrey;
             color: darkgrey;
             text-align: center;
-          }
+            border-top: solid, #4aaaa5;}
           
